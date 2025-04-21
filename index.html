@@ -64,10 +64,10 @@
                                href="https://zhdsun.github.io/">Zhida Sun</a><sup>1</sup>,</span>
                         <span class="author-block">
                             <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
-                               href="">Zhenyao Zhang</a><sup>1</sup>,</span>
+                               href="https://ZhenyaoZhang.github.io/">Zhenyao Zhang</a><sup>1</sup>,</span>
                         <span class="author-block">
                             <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
-                               href="">Yue Zhang</a><sup>1</sup>,</span>
+                               href="https://yuezhang-edward.github.io/">Yue Zhang</a><sup>1</sup>,</span>
                         <span class="author-block">
                             <a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                                href="https://deardeer.github.io/">Min Lu</a><sup>1</sup>,</span>
@@ -109,6 +109,7 @@
                 </div>
             </div>
         </section>
+
         <section class="py-5 container">
             <div class="row">
                 <div class="col-lg-8 col-md-10 mx-auto">
@@ -127,6 +128,8 @@
                 </div>
             </div>
         </section>
+
+
         <section class="py-5 container scmargin" id="abstract">
             <div class="row">
                 <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-tertiary">
@@ -151,274 +154,131 @@
                 </div>
             </div>
         </section>
+
+
         <section class="py-5 container scmargin" id="content">
             <div class="row">
                 <div class="py-5 col-lg-6 col-md-8 mx-auto">
-                    <h4>Research Questions</h4>
-                    <div class="py-4">
-                        <p><strong>RQ1</strong>: How different biofeedback designs will affect user
-                            <strong>engagement</strong>
-                            during a guided stress management practice;</p>
-                        <p><strong>RQ2</strong>: Whether different biofeedback designs will affect users' <strong>attention
-                            allocations</strong> across the personal view versus demonstration view;</p>
-                        <p><strong>RQ3</strong>: Whether different biofeedback designs can affect users' <strong>physiological
-                            measures</strong> when relaxing in a guided stress management setting.</p>
-                    </div>
-                    <hr>
-                    <h4>Design Development Process</h4>
+                    <!--                    <h4>Research Questions</h4>-->
+                    <!--                    <div class="py-4">-->
+                    <!--                        <p><strong>RQ</strong>:  How to augment <strong>creative ideation</strong> through the generation of <strong>metaphorical</strong> visual blends.</p>-->
+                    <!--                        -->
+                    <!--                    </div>-->
+
+                    <!--           -->
+                    <!--                    <hr>-->
+
+
+                    <h4>The Creative Blends pipeline</h4>
+
+
                     <div class="py-4 thumbnail">
+
                         <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
-                             src="./static/images/scheme-min.jpg">
+                             src="./static/images/figure2.jpg">
+
                         <div class="figure-caption">
-                            <p>The design development process of the design studies, where the blue boxes are different
-                                research
-                                activities while the green boxes are the output of such activities.
+                            <p>Creative Blends operates through a multi-stage pipeline. The initial stage involves
+                                concept inference to identify relevant objects and their attributes. Subsequently, a
+                                similarity-based selection process empowers users to choose suitable object and
+                                attribute combinations. The system then explores potential blending schemes and
+                                synthesizes corresponding prompts for the T2I model, culminating in iterative image
+                                generation based on the selected prompts to support the ideation process.
+
                             </p>
                         </div>
                     </div>
                     <hr>
-                    <h4>Design Decisions</h4>
-                    <div class="py-4 thumbnail">
+                    <h4>The Creative Blends system </h4>
+                    <div class="py-4">
+                        <p>Creative Blends utilizes interactive visualizations to enable user exploration of generated
+                            visual blends. The system's interface is organized into four modules: expression input,
+                            prompt exploration, visual blend exploration, and similarity visualization.</p>
+
                         <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
-                             src="./static/images/flow-min.jpg">
+                             src="./static/images/figure3.jpg">
                         <div class="figure-caption">
-                            <p>The design decisions made during the design process. The leaf nodes represent the final
-                                design
-                                choices made after each criterion.
+                            <p>The user interface of Creative Blends showcases an example of generated results for
+                                “global warming”. The interface consists of four distinct modules: the expression input
+                                module (a), the prompt exploration module (b, c, d), the visual blend exploration module
+                                (e), and the similarity visualization module (f).
+
                             </p>
                         </div>
-                    </div>
-                    <hr>
-                    <h4>Design Details</h4>
-                    <div class="py-4">
-                        <p>We present all five representative designs (the left one is a static image where the upper
-                            part shows a
-                            stressed state while the lower part shows a calm state; the right one is an animated gif
-                            where the lower
-                            part keeps neutral) as below:</p>
-                        <div class="row">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/1-min.jpg">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/1-min.gif">
-                            <div class="figure-caption">
-                                <p><i>Raw numbers</i>
-                                    <small>
-                                        [<a href="https://vimeo.com/398411514">video</a>]
-                                    </small>.
-                                    A numerical display of the raw data without any visual representation
-                                    designs.
-                                </p>
-                            </div>
+
+                        <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
+                             src="./static/images/figure4.jpg">
+                        <div class="figure-caption">
+                            <p>The scheme generation prompt is structured into five distinct modules: system setup, task
+                                definition, user input, a step-by-step execution process, and a results format
+                                demonstration.</p>
+
+                            </p>
                         </div>
 
-                        <div class="row">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/2-min.jpg">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/2-min.gif">
-                            <div class="figure-caption">
-                                <p><i>Bar charts</i>
-                                    <small>
-                                        [<a href="https://vimeo.com/398411467">video</a>]
-                                    </small>.
-                                    The representative shows an overview or summary of raw data with accuracy, or
-                                    statistical details derived from the raw data directly with the reference(s) or
-                                    measurement(s).
-                                </p>
-                            </div>
+                        <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
+                             src="./static/images/figure5.jpg">
+                        <div class="figure-caption">
+                            <p>The resulting schemes are then utilized to construct a final prompt for the DALL·E 3
+                                model. This final prompt incorporates objects, attributes, schemes, and contextual
+                                considerations, with the schemes and metaphorical themes dynamically generated by
+                                GPT.</p>
+
+                            </p>
                         </div>
 
-                        <div class="row">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/3-min.jpg">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/3-min.gif">
-                            <div class="figure-caption">
-                                <p><i>Waves</i>
-                                    <small>
-                                        [<a href="https://vimeo.com/398411554">video</a>]
-                                    </small>.
-                                    The representative provides insights into the data, by implementing user-familiar
-                                    visual abstraction or adopting conceptual or abstract design features that reduce
-                                    cognitive
-                                    effort.
-                                </p>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/4-min.jpg">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/4-min.gif">
-                            <div class="figure-caption">
-                                <p><i>Butterfly drawings</i>
-                                    <small>
-                                        [<a href="https://vimeo.com/398411496">video</a>]
-                                    </small>.
-                                    The representative emphasizes the aesthetic values that create a rich
-                                    experience. The visual design should build a creative and aesthetically pleasing art
-                                    form as an
-                                    integrated expression of the data, which changes users' mindsets through
-                                    appreciation.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/5-min.jpg">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/5-min.gif">
-                            <div class="figure-caption">
-                                <p><i>Table lamps</i>
-                                    <small>
-                                        [<a href="https://vimeo.com/398411525">video</a>]
-                                    </small>.
-                                    The representative minimizes its attention efforts (e.g., can be perceived by
-                                    peripheral vision) by promoting a multi-sensory and tangible representation with
-                                    physical
-                                    shapes.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                     <hr>
                     <h4>Evaluation Methods</h4>
                     <div class="py-4 thumbnail">
                         <img alt="ijhcs_20_detail" class="img-responsive img-thumbnail col-md-12"
-                             src="./static/images/process-min.jpg">
+                             src="./static/images/figure6.jpg">
                         <div class="figure-caption">
-                            <p>The lab study protocol. The design conditions are randomly assigned to each trial
-                                according to
-                                the Latin Square sequence.
+                            <p>A within-subjects study with 24 participants was conducted to evaluate Creative Blends
+                                against a baseline comprising ChatGPT and Google Search.
+
                             </p>
                         </div>
                     </div>
                     <hr>
                     <h4>Results</h4>
                     <div class="py-4">
-                        <p>The results of the Friedman's ANOVA test for users' ratings collected through post-study
-                            questionnaires.
-                            M<sub>N</sub> represents the mean value for
-                            <i>raw numbers</i>, M<sub>C</sub> for <i>bar charts</i>, M<sub>W</sub> for <i>waves</i>,
-                            M<sub>B</sub>
-                            for
-                            <i>butterfly drawings</i>, and M<sub>L</sub> for <i>table lamps</i>. The following table
-                            also reports
-                            the degrees of freedom, chi-squared, p-values and Kendall's W values (i.e., the effect
-                            size).</p>
-                        <div>
-                            <table class="table table-striped table-sm">
-                                <thead>
-                                <tr>
-                                    <th scope="col">Attributes</th>
-                                    <th scope="col">M<sub>N</sub></th>
-                                    <th scope="col">M<sub>C</sub></th>
-                                    <th scope="col">M<sub>W</sub></th>
-                                    <th scope="col">M<sub>B</sub></th>
-                                    <th scope="col">M<sub>L</sub></th>
-                                    <th scope="col">df</th>
-                                    <th scope="col">X<sup>2</sup></th>
-                                    <th scope="col">p</th>
-                                    <th scope="col">W</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <th class="fw-light" scope="row">Perceived usability</th>
-                                    <td>3.49</td>
-                                    <td>3.37</td>
-                                    <td>3.69</td>
-                                    <td>3.31</td>
-                                    <td>3.20</td>
-                                    <td>4</td>
-                                    <td>4.34</td>
-                                    <td>4.339</td>
-                                    <td>.03</td>
-                                </tr>
-                                <tr>
-                                    <th class="fw-light" scope="row">Aesthetics</th>
-                                    <td>1.97</td>
-                                    <td>2.69</td>
-                                    <td>3.57</td>
-                                    <td>4.31</td>
-                                    <td>4.17</td>
-                                    <td>4</td>
-                                    <td>86.32</td>
-                                    <td><.001</td>
-                                    <td>.62</td>
-                                </tr>
-                                <tr>
-                                    <th class="fw-light" scope="row">Novelty</th>
-                                    <td>2.49</td>
-                                    <td>2.74</td>
-                                    <td>3.46</td>
-                                    <td>4.20</td>
-                                    <td>4.23</td>
-                                    <td>4</td>
-                                    <td>63.29</td>
-                                    <td><.001</td>
-                                    <td>.45</td>
-                                </tr>
-                                <tr>
-                                    <th class="fw-light" scope="row">Focused attention</th>
-                                    <td>2.80</td>
-                                    <td>3.09</td>
-                                    <td>3.69</td>
-                                    <td>3.86</td>
-                                    <td>3.94</td>
-                                    <td>4</td>
-                                    <td>31.61</td>
-                                    <td><.001</td>
-                                    <td>.23</td>
-                                </tr>
-                                <tr>
-                                    <th class="fw-light" scope="row">Felt involvement</th>
-                                    <td>2.37</td>
-                                    <td>2.77</td>
-                                    <td>3.74</td>
-                                    <td>4.09</td>
-                                    <td>4.17</td>
-                                    <td>4</td>
-                                    <td>61.57</td>
-                                    <td><.001</td>
-                                    <td>.44</td>
-                                </tr>
-                                <tr>
-                                    <th class="fw-light" scope="row">Endurability</th>
-                                    <td>2.71</td>
-                                    <td>3.06</td>
-                                    <td>3.57</td>
-                                    <td>3.57</td>
-                                    <td>3.77</td>
-                                    <td>4</td>
-                                    <td>26.96</td>
-                                    <td><.001</td>
-                                    <td>.19</td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <p>User ratings were collected across five dimensions: <i>Usability</i>, <i>Cognitive Load</i>,
+                            <i>Outcome Satisfaction</i>, <i>Creativity</i>, and <i>Metaphoricity</i>. Statistical
+                            analysis of these ratings revealed that Creative Blends significantly outperformed the
+                            baseline in <i><strong>Creativity</strong></i>, <i><strong>Metaphoricity</strong></i>, and
+                            overall <i><strong>user experience</strong></i>, demonstrating its efficacy in generating
+                            visually compelling ideas for abstract concepts.</p>
+
                         <div class="text-center">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-6"
-                                 src="./static/images/eyegaze-min.jpg">
+                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
+                                 src="./static/images/Figure17.png">
                             <div class="figure-caption text-start">
-                                <p>The time distribution of participants' eye-gaze data on the guidance view and the
-                                    personal view.
+                                <p>The statistical results of user feedback with the Creative Blends and the baseline.
                                 </p>
                             </div>
                         </div>
                         <div class="text-center">
-                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-10"
-                                 src="./static/images/biodata-min.jpg">
+                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
+                                 src="./static/images/figure9.jpg">
                             <div class="figure-caption text-start">
-                                <p>Participants' biofeedback data during the three-minute relaxation practice. (1) is
-                                    the box plot
-                                    of the minimum GSR value; (2) is the box plot of the minimum BPM value; and (3) is
-                                    the box plot
-                                    of the RMSSD value based on the IBI data.
+                                <p> Creative Blends generates diverse visual blends representing abstract concepts based
+                                    on user-provided expressions. Each topic includes eight examples: four highlighting
+                                    different levels of object similarity and four demonstrating varying attribute
+                                    similarity. Similarity increases from left to right. The attributes are extended
+                                    based on the objects enclosed by the double brackets. Colors within the topics serve
+                                    to identify concepts and their associated objects and attributes.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img alt="ijhcs_20_detail" class="img-fluid img-thumbnail col-md-12"
+                                 src="./static/images/figure15.jpg">
+                            <div class="figure-caption text-start">
+                                <p> The Sample ideas generated by Creative Blends. These examples are randomly selected
+                                    from the topics used in previous research or commonly used in our daily lives.
                                 </p>
                             </div>
                         </div>
@@ -426,37 +286,14 @@
                     <hr>
                     <h4>Reflection</h4>
                     <div class="py-4">
-                        <p>From the statistical results and participants' responses, we learn that each design has its
-                            own
-                            strengths and weaknesses.
-                            Without visual encodings, <i>raw numbers</i> provide concrete, precise details of the raw
-                            signals,
-                            but is deemed tedious.
-                            <i>Bar charts</i> use traditional statistical graphics.
-                            It is intuitive for users to identify a stressful moment through comparison, but its
-                            well-known
-                            usage in analytical tasks may put users in a judgmental mindset.
-                            <i>Waves</i> exploit direct visual analogs and present in geometric shapes.
-                            An abstract design can significantly improve the fluency of visual data processing, but
-                            striking a
-                            balance between intuitiveness and interestingness is non-trivial.
-                            <i>Butterfly drawings</i> leverage aesthetic metaphors to create experience-oriented visual
-                            design
-                            with the intent of making art.
-                            It is sometimes difficult to balance artistic value and communicativeness, as embellishments
-                            that
-                            are pleasing to the eyes may distract the mind.
-                            <i>Table lamps</i> design provides a source of relatedness and enables an immersive
-                            experience
-                            with the data.
-                            However, certain encodings (e.g., transparency, the spatial region in our case) that are
-                            commonly used
-                            in visual displays are not readily applicable to every physical display.
-                            The last three designs (i.e., <i>waves</i>, <i>butterfly drawings</i>, and <i>table
-                                lamps</i>)
-                            have several pitfalls. They all fail to provide precise quantitative measurements, and their
-                            visual
-                            encodings entail a learning cost.</p>
+                        <p>In summary, this research proposes a novel <i><strong>metaphor-based</strong></i> visual
+                            blending approach , leveraging commonsense reasoning to identify semantically relevant
+                            objects and subsequently synthesize them based on attribute similarity. We present
+                            <i><strong>Creative Blends</strong></i>, an AI-assisted system designed to enhance creative
+                            ideation in visual blending through the use of metaphors. Through a comprehensive
+                            evaluation, we demonstrate how metaphors can facilitate abstract concept design in
+                            AIGC, enhancing creative workflows and visual ideation.</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -467,18 +304,15 @@
                     <div class="px-0">
                         <h4 class="text-center">BibTeX</h4>
                         <pre><code>
-                            @article{sun2020fostering,
-                            title = {Fostering engagement in technology-mediated stress management: A comparative study of biofeedback designs},
-                            journal = {International Journal of Human-Computer Studies},
-                            volume = {140},
-                            pages = {102430},
-                            year = {2020},
-                            issn = {1071-5819},
-                            doi = {https://doi.org/10.1016/j.ijhcs.2020.102430},
-                            url = {https://www.sciencedirect.com/science/article/pii/S1071581920300343},
-                            author = {Zhida Sun and Manuele Reani and Quan Li and Xiaojuan Ma},
-                            keywords = {Design, Engagement, Stress, Biofeedback}
-                            }
+                            @misc{sun2025creativeblendsvisualconcepts,
+                                title={Creative Blends of Visual Concepts}, 
+                                author={Zhida Sun and Zhenyao Zhang and Yue Zhang and Min Lu and Dani Lischinski and Daniel Cohen-Or and Hui Huang},
+                                year={2025},
+                                eprint={2502.16062},
+                                archivePrefix={arXiv},
+                                primaryClass={cs.HC},
+                                url={https://arxiv.org/abs/2502.16062}, 
+                          }
                         </code></pre>
                     </div>
                 </div>
